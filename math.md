@@ -21,7 +21,7 @@ Also, in order to maintain this file, install the following extensions for Micro
 
 | Term | Definition | Example |
 |---------------|----------------------------------------|----------------------------------------------------------|
-| Rational number | Any number that is either an integer or a fraction  | $$ 6, -{7 \over 2}, 0, {3 \over 4}, {11 \over 6}, 12 $$ |
+| Rational number | Any number that is either an integer or a fraction  | $$ 6, -{7 \over 2}, 0, {3 \over 4}, {11 \over 6}, \frac{11}{6}, 12 $$ |
 | Rational number | Any number that is either an integer or a fraction  | `-6, -7/2, 0, 3/4, 11/6, 12` |
 | Irrational number | Any number that can not be written as a fraction  | `dd` |
 | Whole number | Any number that is either 0 or a positive number  | `0, 1, 2, 3, 4, 5, ...` |
