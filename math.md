@@ -1,10 +1,15 @@
 ## Math
 
+**Important Note**
+You need to install the [Github MathJax Chrome extension]() to be able to view the special math symbols in this markdown file
+
 #### Quick Reference Notes
 
 h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 
 $$x = {1 \over 2}$$
+
+$$ \frac{1}{2} $$
 
 
 
