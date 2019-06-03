@@ -1,7 +1,15 @@
 ## Math
 
-**Important Note**
-You need to install the [Github MathJax Chrome extension]() to be able to view the special math symbols in this markdown file
+**Important Note** <br />
+You need to install the [Github MathJax Chrome extension](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima/related) to be able to view the special math symbols in this markdown file. <br />
+Also, in order to maintain this file, install the following extensions for Microsoft Visual Studio Code: <br />
+[Markdown + Math](https://marketplace.visualstudio.com/items?itemName=goessner.mdmath) <br />
+[Math Snippets](https://marketplace.visualstudio.com/items?itemName=thomanq.math-snippets)
+
+##### Latex symbols references
+> Latex is the language used to render the various math symbols
+[Manchester University - LaTeX Math Symbols](http://web.ift.uib.no/Teori/KURS/WRK/TeX/symALL.html)
+
 
 #### Quick Reference Notes
 
@@ -11,11 +19,10 @@ $$x = {1 \over 2}$$
 
 $$ \frac{1}{2} $$
 
-\begin{itemize}
-\color{blue}
-\item First item
-\item Second item
-\end{itemize}
+$$ le $$
+
+
+
 
 
 
