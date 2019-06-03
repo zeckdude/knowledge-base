@@ -2,10 +2,16 @@
 
 #### Quick Reference Notes
 
+h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
+
+$$x = {1 \over 2}$$
+
+
+
 | Term | Definition | Example |
 |---------------|----------------------------------------|----------------------------------------------------------|
 | Rational number | Any number that is either an integer or a fraction  | `-6, -7/2, 0, 3/4, 11/6, 12` |
-| Irational number | Any number that can not be written as a fraction  | `dd` |
+| Irrational number | Any number that can not be written as a fraction  | `dd` |
 | Whole number | Any number that is either 0 or a positive number  | `0, 1, 2, 3, 4, 5, ...` |
 | Natural number (counting number) | Any number that is a positive number (not including `0`)  | `1, 2, 3, 4, 5, ...` |
 | Integer | Any number, not including fractions, that is either a negative number, `0`, or positive number  | `..., -3, -2, -1, 0, 1, 2, 3, ...` |
