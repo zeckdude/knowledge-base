@@ -8,6 +8,7 @@ Also, in order to maintain this file, install the following extensions for Micro
 
 ##### Latex symbols references
 > Latex is the language used to render the various math symbols <br />
+
 [Manchester University - LaTeX Math Symbols](http://web.ift.uib.no/Teori/KURS/WRK/TeX/symALL.html) <br />
 [AsciiMath - LaTex Symbols](http://asciimath.org/#syntax) <br />
 [The Comprehensive LATEX Symbol List](http://ctan.math.washington.edu/tex-archive/info/symbols/comprehensive/symbols-a4.pdf) <br />
@@ -21,7 +22,8 @@ Also, in order to maintain this file, install the following extensions for Micro
 
 | Term | Definition | Example |
 |---------------|----------------------------------------|----------------------------------------------------------|
-| Rational number | Any number that is either an integer or a fraction  | $$ 6, -{7 \over 2}, 0, {3 \over 4}, {11 \over 6}, \tfrac{11}{6}, 12 $$ |
+| Rational number | Any number that is either an integer or a fraction  | $$ 6, -{7 \over 2}, 0, {3 \over 4}, {11 \over 6}, 12 $$ |
+| Rational number | Any number that is either an integer or a fraction  | $$ 6, -\frac{7}{2}, 0, \frac{3}{4}, \frac{11}{6}, 12 $$ |
 | Rational number | Any number that is either an integer or a fraction  | `-6, -7/2, 0, 3/4, 11/6, 12` |
 | Irrational number | Any number that can not be written as a fraction  | `dd` |
 | Whole number | Any number that is either 0 or a positive number  | `0, 1, 2, 3, 4, 5, ...` |
