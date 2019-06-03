@@ -7,24 +7,17 @@ Also, in order to maintain this file, install the following extensions for Micro
 [Math Snippets](https://marketplace.visualstudio.com/items?itemName=thomanq.math-snippets)
 
 ##### Latex symbols references
-> Latex is the language used to render the various math symbols
-[Manchester University - LaTeX Math Symbols](http://web.ift.uib.no/Teori/KURS/WRK/TeX/symALL.html)
+> Latex is the language used to render the various math symbols <br />
+[Manchester University - LaTeX Math Symbols](http://web.ift.uib.no/Teori/KURS/WRK/TeX/symALL.html) <br />
+[AsciiMath - LaTex Symbols](http://asciimath.org/#syntax) <br />
+[The Comprehensive LATEX Symbol List](http://ctan.math.washington.edu/tex-archive/info/symbols/comprehensive/symbols-a4.pdf) <br />
+[LATEX Mathematical Symbols](https://www.caam.rice.edu/~heinken/latex/symbols.pdf) <br />
+[LaTex Basic Code](http://www.malinc.se/math/latex/basiccodeen.php) 
+
+
 
 
 #### Quick Reference Notes
-
-h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
-
-$$x = {1 \over 2}$$
-
-$$ \frac{1}{2} $$
-
-$$ \le $$
-
-
-
-
-
 
 | Term | Definition | Example |
 |---------------|----------------------------------------|----------------------------------------------------------|
