@@ -20,11 +20,12 @@ Also, in order to maintain this file, install the following extensions for Micro
 
 | Term | Definition | Example |
 | --- | --- | --- |
-| Rational number | Any number that is either an integer or a fraction  | $6, -\tfrac{7}{2}, 0, \tfrac{3}{4}, \tfrac{11}{6}, 12$ |
-| Irrational number | Any number that can not be written as a fraction  | $\sqrt{16}$ |
-| Whole number | Any number that is either 0 or a positive number  | $0, 1, 2, 3, 4, 5, ...$ |
-| Natural number (counting number) | Any number that is a positive number (not including `0`)  | $1, 2, 3, 4, 5, ...$ |
-| Integer | Any number, not including fractions, that is either a negative number, `0`, or positive number  | $..., -3, -2, -1, 0, 1, 2, 3, ...$ |
+| $\mathbb{R}$ Real number | Any number that is either a rational or irrational number  | $-6, -\tfrac{7}{2}, 0, \tfrac{3}{4}, \sqrt{2}, \pi, 12$ |
+| $\mathbb{Q}$ Rational number | Any number that is either an integer or a fraction  | $-6, -\tfrac{7}{2}, 0, \tfrac{3}{4}, \tfrac{11}{6}, 12$ |
+| $\mathbb{R-Q}$ Irrational number | Any number that can not be written as a fraction  | $\sqrt{2}, \pi, $ |
+| $\mathbb{W}$ Whole number | Any number that is either 0 or a positive number  | $0, 1, 2, 3, 4, 5, ...$ |
+| $\mathbb{N}$ Natural number (counting number) | Any number that is a positive number (not including `0`)  | $1, 2, 3, 4, 5, ...$ |
+| $\mathbb{Z}$ Integer | Any number, not including fractions, that is either a negative number, `0`, or positive number  | $..., -3, -2, -1, 0, 1, 2, 3, ...$ |
 | Identity number | A number that doesn't change the "identity" of the original value | The identity number for addition is 0 and for multiplication is 1 |
 | Signed number | A positive or negative number | *None* |
 | Absolute value | The distance a number is from 0 on the number line | Absolute values are always positive numbers. It is indicated by wrapping a number by the pipe character, such as `\|-3\|` |
