@@ -46,6 +46,7 @@ Also, in order to maintain this file, install the following extensions for Micro
 
 #### Detailed Reference PDF's
 * [Number Sets](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/zeckdude/knowledge-base/8f907ae1a00062ea353c32a2e5607491d6a7a3c9/pdf/math/pre-algebra/01-number-sets.pdf)
+* <a href="http://example.com/" target="_blank">Hello, world!</a>
 
 #### Return the number of elements in an array
 tc
