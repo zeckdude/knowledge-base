@@ -10,7 +10,7 @@ $$x = {1 \over 2}$$
 
 | Term | Definition | Example |
 |---------------|----------------------------------------|----------------------------------------------------------|
-| Rational number | Any number that is either an integer or a fraction  | $${7 /over 2}$$ |
+| Rational number | Any number that is either an integer or a fraction  | $${7 \over 2}$$ |
 | Rational number | Any number that is either an integer or a fraction  | `-6, -7/2, 0, 3/4, 11/6, 12` |
 | Irrational number | Any number that can not be written as a fraction  | `dd` |
 | Whole number | Any number that is either 0 or a positive number  | `0, 1, 2, 3, 4, 5, ...` |
