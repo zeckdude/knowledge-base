@@ -23,6 +23,7 @@ Also, in order to maintain this file, install the following extensions for Micro
 | Term | Definition | Example |
 |---------------|----------------------------------------|----------------------------------------------------------|
 | Rational number | Any number that is either an integer or a fraction  | $6, -\tfrac{7}{2}, 0, \tfrac{3}{4}, \tfrac{11}{6}, 12$ |
+| Rational number | Any number that is either an integer or a fraction  | $$6, -\tfrac{7}{2}, 0, \tfrac{3}{4}, \tfrac{11}{6}, 12$$ |
 | Irrational number | Any number that can not be written as a fraction  | `dd` |
 | Whole number | Any number that is either 0 or a positive number  | `0, 1, 2, 3, 4, 5, ...` |
 | Natural number (counting number) | Any number that is a positive number (not including `0`)  | `1, 2, 3, 4, 5, ...` |
