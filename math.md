@@ -11,6 +11,12 @@ $$x = {1 \over 2}$$
 
 $$ \frac{1}{2} $$
 
+\begin{itemize}
+\color{blue}
+\item First item
+\item Second item
+\end{itemize}
+
 
 
 | Term | Definition | Example |
