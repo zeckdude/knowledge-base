@@ -1,0 +1,35 @@
+## Web Development
+
+#### Quick Reference Notes
+
+| Term | Definition | Example |
+| --- | --- | --- |
+
+
+<br>
+
+#### Notes
+
+Ways to make website load faster
+1. Use a server that's close to the user
+2. Limit number of requests
+  - Host own fonts
+3. Size of files
+  - Minify CSS
+  - 
+
+DOCTYPE tells the browser which version of HTML the site is using so the website loads properly.
+
+Which CSS selectors win
+- Specificity
+- Importance (!important keyword)
+- Source order (later styles of the same specificity and importance win)
+
+px vs em vs rem
+- px: Actual pixels
+- em: Multiplier based on the font-size of the parent element
+- rem: Multiplier based on the font-size on the html element
+
+
+
+
