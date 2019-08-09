@@ -30,6 +30,20 @@ px vs em vs rem
 - em: Multiplier based on the font-size of the parent element
 - rem: Multiplier based on the font-size on the html element
 
+Arguments vs parameter
+- arguments: values passed to a function
+- parameters: values available inside a function as defined variables
 
+JavaScript can execute on any device that has a JavaScript engine, such as the browser and server
+
+Browsers have embedded engines called a "JavaScript virtual machine"
+ - Chrome and Opera - V8
+ - SpiderMonkey - Firefox
+ - Different versions of IE - Trident or Chakra
+ - Microsoft Edge - ChakraCore
+ - Safari - SquirrelFish
+ 
+ 
+ 
 
 
