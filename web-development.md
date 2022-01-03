@@ -36,12 +36,25 @@ Arguments vs parameter
 
 JavaScript can execute on any device that has a JavaScript engine, such as the browser and server
 
-Browsers have embedded engines called a "JavaScript virtual machine"
+A computer doesn't understand Javascript code, but rather only reads binary code.
+
+Browsers have embedded engines called a "JavaScript virtual machine" which converts the Javascript to the binary machine code that the computer understands.
  - Chrome and Opera - V8
  - SpiderMonkey - Firefox
  - Different versions of IE - Trident or Chakra
  - Microsoft Edge - ChakraCore
  - Safari - SquirrelFish
+
+The JS engines follow a series of steps to create the binary machine code (example is the flow of the V8 engine):
+
+
+
+1. Parser: Parse JS code
+2. AST: Break JS down into AST (Abstract syntax tree) format which helps the engine to understand what's happening in the code that it is parsing
+   * [Example](https://astexplorer.net/#/gist/a2d2216ee7a73ee72acebcd41a924bea/4ae1cf56120fd059d0bdffda31fff286f242fabf)
+3. Interpreter: 
+
+
  
  
  
