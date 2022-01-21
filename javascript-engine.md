@@ -9,6 +9,8 @@
  - https://levelup.gitconnected.com/understanding-call-stack-and-heap-memory-in-js-e34bf8d3c3a4
 
 ### How JavaScript is understood by the computer
+<img width="233" alt="Screen Shot 2022-01-21 at 1 28 44 AM" src="https://user-images.githubusercontent.com/947856/150503635-a211fc55-de79-4bbb-a44e-c92f799d30c1.png">
+
   - JavaScript can execute on any device that has a JavaScript engine, such as the browser and server.
   - A computer doesn't understand Javascript code, but rather only reads binary code.
   - Browsers have embedded engines called a "JavaScript virtual machine" which converts the Javascript to the binary machine code that the computer understands.
