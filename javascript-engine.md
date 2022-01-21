@@ -60,12 +60,17 @@
   - When a variable or function is created, it is temporarily stored in the memory heap which is a part of the system memory that is allocated to the JavaScript engine
   - The stored data in memory has an address that the variable/function maps to. When we use a variable in the code, we are accessing the value that is stored at the address associated with the variable name.
   - Unlike the call stack, in the heap each stored value isn't allocated a fixed amount of memory. Instead, more space gets allocated as needed.
-  <img width="521" alt="Screen Shot 2022-01-21 at 1 18 04 AM" src="https://user-images.githubusercontent.com/947856/150500551-2d68b9a1-a625-42c4-86f9-9bff1938f038.png">
+ 
+  <br />
+      <img width="521" alt="Screen Shot 2022-01-21 at 1 18 04 AM" src="https://user-images.githubusercontent.com/947856/150500551-2d68b9a1-a625-42c4-86f9-9bff1938f038.png">
 
 
  
  ### Stack overflow
  - An error that is caused when a program tries to use more space than the call stack has allocated. This is commonly caused by a recursive function and you’ll see the error `Maximum call stack size exceeded`.
+ - The maximum call stack size ranges from 10 to 50 thousand calls, so if you exceed that, it's most likely that you have an infinite loop in your code.
+ - The browser prevents your code from freezing the whole page by limiting the call stack.
+ - A way to prevent this is by either not using recursive functions in the first place or by providing a base case, which makes your function exit at some point.
  
 
 
