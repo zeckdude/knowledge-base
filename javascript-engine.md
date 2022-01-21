@@ -91,6 +91,7 @@
   > Note: The algorithm that the garbage collector uses which determines if a value is reachable from the root object (window on browser or global on node) is determined by the Mark-and-sweep algorithm which is used in all modern browsers
 
   <!-- ### Memory leak -->
+  Woah this is cool
 
 
 
