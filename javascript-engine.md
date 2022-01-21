@@ -50,9 +50,7 @@
   - In addition to storing references to function calls, the call stack also stores all primitive values (string, number, boolean, undefined, null, and symbol)
 
 ### Memory heap
-<img width="691" alt="Screen Shot 2022-01-21 at 1 01 54 AM" src="https://user-images.githubusercontent.com/947856/150498060-81f6c512-39d8-43c8-8ac4-bb4c88c0e32a.png">
-
-
+<img width="580" alt="Screen Shot 2022-01-21 at 1 10 37 AM" src="https://user-images.githubusercontent.com/947856/150499455-5730e3df-6185-4b29-9b65-d4729513b46f.png">
 - Memory Heap: Where the memory allocation for objects (all non-primitives) happens on the client's machine
 
   > Note: When we create variables, functions, or anything you can think of, the JS engine allocates memory for this and releases it once it's not needed anymore 
