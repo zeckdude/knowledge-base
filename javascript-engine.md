@@ -73,6 +73,11 @@
  - The maximum call stack size ranges from 10 to 50 thousand calls, so if you exceed that, it's most likely that you have an infinite loop in your code.
  - The browser prevents your code from freezing the whole page by limiting the call stack.
  - A way to prevent this is by either not using recursive functions in the first place or by providing a base case, which makes your function exit at some point.
+
+ <!-- ### Garbage collection
+ - Process that is automatically handled by the JS engine in which it releases memory for variables or functions that are no longer needed
+ - This frees up memory for other data to be stored
+ -  -->
  
 
 
