@@ -67,10 +67,13 @@
 
  
  ### Stack overflow
+ <img width="731" alt="Screen Shot 2022-01-21 at 1 25 22 AM" src="https://user-images.githubusercontent.com/947856/150501731-05fdecd8-69c3-4eb6-aede-b88912881256.png">
+ 
  - An error that is caused when a program tries to use more space than the call stack has allocated. This is commonly caused by a recursive function and you’ll see the error `Maximum call stack size exceeded`.
  - The maximum call stack size ranges from 10 to 50 thousand calls, so if you exceed that, it's most likely that you have an infinite loop in your code.
  - The browser prevents your code from freezing the whole page by limiting the call stack.
  - A way to prevent this is by either not using recursive functions in the first place or by providing a base case, which makes your function exit at some point.
  
+
 
 
