@@ -7,10 +7,9 @@
  - https://felixgerschau.com/javascript-memory-management/
  - https://medium.com/@allansendagi/javascript-fundamentals-call-stack-and-memory-heap-401eb8713204
  - https://levelup.gitconnected.com/understanding-call-stack-and-heap-memory-in-js-e34bf8d3c3a4
+ - https://javascript.info/garbage-collection
 
 ### How JavaScript is understood by the computer
-<img width="233" alt="Screen Shot 2022-01-21 at 1 28 44 AM" src="https://user-images.githubusercontent.com/947856/150503635-a211fc55-de79-4bbb-a44e-c92f799d30c1.png">
-
   - JavaScript can execute on any device that has a JavaScript engine, such as the browser and server.
   - A computer doesn't understand Javascript code, but rather only reads binary code.
   - Browsers have embedded engines called a "JavaScript virtual machine" which converts the Javascript to the binary machine code that the computer understands.
@@ -76,10 +75,23 @@
  - The browser prevents your code from freezing the whole page by limiting the call stack.
  - A way to prevent this is by either not using recursive functions in the first place or by providing a base case, which makes your function exit at some point.
 
- <!-- ### Garbage collection
+ ### Garbage collection
  - Process that is automatically handled by the JS engine in which it releases memory for variables or functions that are no longer needed
  - This frees up memory for other data to be stored
- -  -->
+ - The way that the garbage collector determines that something is still needed in memory, and will not be released, is determined if a value is "reachable", which means they are accessible or usable somehow. They are guaranteed to be stored in memory.
+ - A value is considered reachable, when it meets any of the following criteria:
+   - The currently executing function, its local variables and parameters
+   - Other functions on the current chain of nested calls, their local variables and parameters
+   - Global variables
+   - (there are some other, internal ones as well)
+   - if it’s reachable from a root (any of the previously mentioned reachable values) by a reference or by a chain of references.
+
+  > Note: The algorithm that the garbage collector uses which determines if a value is reachable from the root object (window on browser or global on node) is determined by the Mark-and-sweep algorithm which is used in all modern browsers
+
+  ### Memory leak
+
+
+
  
 
 
