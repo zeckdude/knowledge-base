@@ -6,6 +6,7 @@
  - https://felixgerschau.com/javascript-event-loop-call-stack/
  - https://felixgerschau.com/javascript-memory-management/
  - https://medium.com/@allansendagi/javascript-fundamentals-call-stack-and-memory-heap-401eb8713204
+ - https://levelup.gitconnected.com/understanding-call-stack-and-heap-memory-in-js-e34bf8d3c3a4
 
 ### How JavaScript is understood by the computer
   - JavaScript can execute on any device that has a JavaScript engine, such as the browser and server.
@@ -46,6 +47,7 @@
   - The latest functions that are called are executed first. 
   - When a function is completed (either returns a value or reaches the end of the function) then it is removed from the call stack.
   - This repeats until the first function that was called is completed. This approach is called the Last In, First Out principle.
+  - In addition to storing references to function calls, the call stack also stores all primitive values (string, number, boolean, undefined, null, and symbol)
 
 ### Memory heap
 ![1_IiejRUFbks-TaOzJJvdoVw](https://user-images.githubusercontent.com/947856/150495273-3af014f8-8baa-4ac3-9071-057f1e569ab4.jpeg)
