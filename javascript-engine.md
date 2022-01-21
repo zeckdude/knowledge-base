@@ -50,7 +50,8 @@
   - In addition to storing references to function calls, the call stack also stores all primitive values (string, number, boolean, undefined, null, and symbol)
 
 ### Memory heap
-![1_IiejRUFbks-TaOzJJvdoVw](https://user-images.githubusercontent.com/947856/150495273-3af014f8-8baa-4ac3-9071-057f1e569ab4.jpeg)
+<img width="691" alt="Screen Shot 2022-01-21 at 1 01 54 AM" src="https://user-images.githubusercontent.com/947856/150498060-81f6c512-39d8-43c8-8ac4-bb4c88c0e32a.png">
+
 
 - Memory Heap: Where the memory allocation happens on the client's machine
 
