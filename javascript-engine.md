@@ -53,14 +53,15 @@
 <img width="691" alt="Screen Shot 2022-01-21 at 1 01 54 AM" src="https://user-images.githubusercontent.com/947856/150498060-81f6c512-39d8-43c8-8ac4-bb4c88c0e32a.png">
 
 
-- Memory Heap: Where the memory allocation happens on the client's machine
+- Memory Heap: Where the memory allocation for objects (all non-primitives) happens on the client's machine
 
   > Note: When we create variables, functions, or anything you can think of, the JS engine allocates memory for this and releases it once it's not needed anymore 
   - When a variable or function is created, it is temporarily stored in the memory heap which is a part of the system memory that is allocated to the JavaScript engine
   - The stored data in memory has an address that the variable/function maps to. When we use a variable in the code, we are accessing the value that is stored at the address associated with the variable name.
 
  
- 
+ ### Stack overflow
+ - An error that is caused when a program tries to use more space than the call stack has allocated. This is commonly caused by a recursive function and you’ll see the error `Maximum call stack size exceeded`.
  
 
 
