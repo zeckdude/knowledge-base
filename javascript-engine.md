@@ -42,20 +42,25 @@
 - Where the engine keeps track of where the code is in its execution. It is a mechanism that helps the JavaScript interpreter to keep track of the functions that a script calls.
 
   > Note: JavaScript is a single-threaded which means it can only perform one command at a time 
+
   - When a function is called it is added to the call stack in the order of which it was called. 
   - When a function calls other functions those other functions are added to the top of the call stack. 
   - The latest functions that are called are executed first. 
   - When a function is completed (either returns a value or reaches the end of the function) then it is removed from the call stack.
   - This repeats until the first function that was called is completed. This approach is called the Last In, First Out principle.
   - In addition to storing references to function calls, the call stack also stores all primitive values (string, number, boolean, undefined, null, and symbol)
+  - It is allocated a fixed amount of memory for each value
 
 ### Memory heap
 <img width="580" alt="Screen Shot 2022-01-21 at 1 10 37 AM" src="https://user-images.githubusercontent.com/947856/150499455-5730e3df-6185-4b29-9b65-d4729513b46f.png">
-- Memory Heap: Where the memory allocation for objects (all non-primitives) happens on the client's machine
+
+- Where the memory allocation for objects (all non-primitives) happens on the client's machine
 
   > Note: When we create variables, functions, or anything you can think of, the JS engine allocates memory for this and releases it once it's not needed anymore 
   - When a variable or function is created, it is temporarily stored in the memory heap which is a part of the system memory that is allocated to the JavaScript engine
   - The stored data in memory has an address that the variable/function maps to. When we use a variable in the code, we are accessing the value that is stored at the address associated with the variable name.
+  - Unlike the call stack, in the heap each stored value isn't allocated a fixed amount of memory. Instead, more space gets allocated as needed.
+  
 
  
  ### Stack overflow
