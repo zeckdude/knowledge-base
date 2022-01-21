@@ -48,6 +48,8 @@
   - This repeats until the first function that was called is completed. This approach is called the Last In, First Out principle.
 
 ### Memory heap
+![1_IiejRUFbks-TaOzJJvdoVw](https://user-images.githubusercontent.com/947856/150495273-3af014f8-8baa-4ac3-9071-057f1e569ab4.jpeg)
+
 - Memory Heap: Where the memory allocation happens on the client's machine
 
   > Note: When we create variables, functions, or anything you can think of, the JS engine allocates memory for this and releases it once it's not needed anymore 
