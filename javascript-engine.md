@@ -32,9 +32,15 @@
   > Interpreter: Ignition<br />
   > Compiler: TurboFan
 
+
+### Call stack
+![2022-01-21 00 03 08](https://user-images.githubusercontent.com/947856/150489957-5aea5fb1-3db9-45ec-92bf-e0bff0bac8ea.gif)
+
 - Call Stack: Where the engine keeps track of where the code is in its execution
   - 
   - When a function is called 
+
+### Memory heap
 - Memory Heap: Where the memory allocation happens on the client's machine
   - When a variable or function is created, it is temporarily stored in the memory heap which is a part of the system memory that is allocated to the JavaScript engine
   - The thing in memory has an address that the variable/function maps to
